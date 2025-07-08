@@ -8,7 +8,7 @@
         <div
           class="bg-gradient-to-br from-cyan-500 to-teal-400 text-white p-8 text-center"
         >
-          <h1 class="text-4xl font-light mb-3">Colleagues Manager</h1>
+          <h1 class="text-4xl font-light mb-3">Colleagues Selector</h1>
           <p class="text-cyan-100 opacity-90">
             Click on colleagues to move them between lists
           </p>
