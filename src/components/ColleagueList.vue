@@ -8,7 +8,7 @@
       </span>
     </div>
 
-    <!-- Colleagues List with Group Transitions -->
+    <!-- Colleagues List  -->
     <div class="list-container relative min-h-20">
       <transition-group
         name="list"
