@@ -35,7 +35,7 @@
             />
           </div>
 
-          <!-- Summary -->
+          <!-- Overview -->
           <div
             class="text-center p-4 bg-gradient-to-r from-cyan-50 to-green-50 rounded-2xl border border-gray-200"
           >
