@@ -11,16 +11,25 @@
       </h1>
     </div>
     <img
-      class="mx-auto mt-4 p-4 bg-gray-400 rounded shadow-md"
+      class="mx-auto mt-4 p-4 bg-gray-400 rounded shadow-md w-1/4"
       :src="imageURL"
       alt="vuelogo"
     />
+    <div class="text-center mt-4">
+      <Counter />
+    </div>
   </div>
 </template>
 
 <script>
 import logoImage from "@/assets/pic.jpg";
+
+import Counter from "@/components/Intro.vue";
 export default {
+  name: "counter component",
+  components: {
+    Counter,
+  },
   data() {
     return {
       imageURL: logoImage,
