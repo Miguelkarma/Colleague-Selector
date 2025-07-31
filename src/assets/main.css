@@ -1,1 +1,6 @@
 @import "./base.css";
+
+.btn {
+  background-color: aquamarine;
+  padding: 1em;
+}
