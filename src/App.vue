@@ -3,13 +3,12 @@
     <div class="flex flex-col items-center justify-center gap-3">
       <a :href="randomLink">welcome to my domain</a>
       <img v-bind="desc" />
-
-      <Events />
+      <Watch />
     </div>
   </div>
 </template>
 <script setup>
-import Events from "@/components/EventHandles.vue";
+import Watch from "@/components/Watch/Watch.vue";
 const randomLink =
   "https://www.reddit.com/r/learnprogramming/comments/v8gtq0/selftaught_developers_how_much_did_you_know_when/";
 
